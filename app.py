@@ -1,16 +1,14 @@
-# This is a sample Python script.
+from utils import database
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+USER_CHOICE = """
+Enter:
+- 'a' to add a new book
+- 'l' to list all books 
+- 'r' to mark a book as read 
+- 'd' to delete a book 
+- 'q' to quit
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
+Your choice:"""
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
